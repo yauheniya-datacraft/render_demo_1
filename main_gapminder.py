@@ -24,6 +24,7 @@ fig_map.update_layout(title_x=0.5, width=650)
 
 # App erstellen
 app = Dash(__name__, title='Gapminder')
+server = app.server
 
 # App-Layout zusammensetzen
 app.layout = html.Div(children=[
